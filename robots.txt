@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /telekino-data/backup_
+
+Sitemap: https://sebiglesias.com.ar/telekino/sitemap.xml
