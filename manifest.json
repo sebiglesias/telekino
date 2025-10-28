@@ -2,6 +2,7 @@
   "name": "Resultados Telekino",
   "short_name": "Telekino",
   "description": "Consulta los resultados oficiales de Telekino y Rekino. Números ganadores actualizados diariamente.",
+  "id": "/telekino",
   "start_url": "/telekino",
   "display": "standalone",
   "background_color": "#667eea",
