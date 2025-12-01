@@ -1,42 +1,58 @@
 {
-  "numero_sorteo": "2403",
-  "fecha": "23/11/2025",
+  "numero_sorteo": "2404",
+  "fecha": "30/11/2025",
   "numeros_telekino": [
-    1,
-    2,
-    5,
-    6,
+    3,
+    4,
+    8,
+    9,
     10,
-    11,
-    13,
+    12,
+    15,
     16,
     17,
     18,
     19,
     20,
-    22,
+    21,
     23,
-    25
+    24
   ],
   "numeros_rekino": [
     2,
+    3,
     4,
-    6,
     7,
-    8,
     9,
     10,
+    11,
+    12,
     13,
-    17,
+    14,
+    16,
+    18,
     19,
-    21,
-    22,
-    23,
-    24,
-    25
+    20,
+    24
   ],
   "premios": {
-    "telekino": [],
+    "telekino": [
+      {
+        "categoria": "15 ACIERTOS",
+        "ganadores": "1",
+        "premio": "$ 2.997.995"
+      },
+      {
+        "categoria": "22",
+        "ganadores": "12",
+        "premio": "2025"
+      },
+      {
+        "categoria": "07",
+        "ganadores": "12",
+        "premio": "2025"
+      }
+    ],
     "rekino": []
   },
   "tipo": "historico"
