@@ -644,14 +644,10 @@ footer p {
     opacity: 0.5;
 }
 
-/* FAQ Section (oculta pero presente para SEO) */
+/* FAQ Section */
 .faq-section {
-    display: none !important; /* Oculto visualmente pero presente en HTML */
-}
-
-.faq-grid {
-    display: grid;
-    gap: 1.5rem;
+    margin: 2rem 0;
+    border-left: 5px solid #3498db;
 }
 
 .faq-item {
@@ -659,17 +655,38 @@ footer p {
     padding: 1.5rem;
     border-radius: 10px;
     border-left: 4px solid #667eea;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .faq-item h3 {
     color: #2c3e50;
     margin-bottom: 0.8rem;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.faq-item h3 i {
+    color: #667eea;
+    font-size: 0.9rem;
 }
 
 .faq-item p {
     color: #555;
-    line-height: 1.6;
+    line-height: 1.8;
+}
+
+/* How to Play Section */
+.how-to-play-section {
+    margin: 2rem 0;
+    border-left: 5px solid #27ae60;
 }
 
 /* Footer mejorado */
