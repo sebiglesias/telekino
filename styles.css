@@ -390,13 +390,69 @@ footer {
     background: #2c3e50;
     color: white;
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0 2rem;
     margin-top: 3rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-section p {
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #667eea;
+    transform: translateX(3px);
 }
 
 footer p {
     opacity: 0.8;
     font-size: 0.95rem;
+}
+
+.footer-disclaimer {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
+.footer-disclaimer a {
+    color: #667eea;
+    text-decoration: underline;
+}
+
+.footer-disclaimer a:hover {
+    color: #8b9ff5;
 }
 
 /* Estados de carga y error */
@@ -644,14 +700,10 @@ footer p {
     opacity: 0.5;
 }
 
-/* FAQ Section (oculta pero presente para SEO) */
+/* FAQ Section */
 .faq-section {
-    display: none !important; /* Oculto visualmente pero presente en HTML */
-}
-
-.faq-grid {
-    display: grid;
-    gap: 1.5rem;
+    margin: 2rem 0;
+    border-left: 5px solid #3498db;
 }
 
 .faq-item {
@@ -659,43 +711,38 @@ footer p {
     padding: 1.5rem;
     border-radius: 10px;
     border-left: 4px solid #667eea;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .faq-item h3 {
     color: #2c3e50;
     margin-bottom: 0.8rem;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.faq-item h3 i {
+    color: #667eea;
+    font-size: 0.9rem;
 }
 
 .faq-item p {
     color: #555;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
-/* Footer mejorado */
-.footer-links {
-    margin: 0 1rem;
-}
-
-.footer-links a {
-    color: #bdc3c7;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: #ecf0f1;
-}
-
-.footer-disclaimer {
-    margin-top: 1rem;
-    font-size: 0.9rem;
-    opacity: 0.7;
-}
-
-.footer-disclaimer a {
-    color: #bdc3c7;
-    text-decoration: underline;
+/* How to Play Section */
+.how-to-play-section {
+    margin: 2rem 0;
+    border-left: 5px solid #27ae60;
 }
 
 /* Mejoras de accesibilidad */
