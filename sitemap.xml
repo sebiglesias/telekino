@@ -17,5 +17,6 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://sebiglesias.com.ar/telekino/index.html"/>
     <xhtml:link rel="alternate" hreflang="es-ar" href="https://sebiglesias.com.ar/telekino/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sebiglesias.com.ar/telekino/index.html"/>
   </url>
 </urlset>
