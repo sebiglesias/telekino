@@ -1,42 +1,58 @@
 {
-  "numero_sorteo": "2409",
-  "fecha": "04/01/2026",
+  "numero_sorteo": "2410",
+  "fecha": "11/01/2026",
   "numeros_telekino": [
-    1,
-    5,
     7,
     8,
-    9,
+    10,
     11,
+    12,
     13,
+    14,
+    15,
     16,
-    17,
-    18,
+    19,
     20,
     21,
     22,
     23,
-    25
+    24
   ],
   "numeros_rekino": [
     1,
+    2,
     4,
     6,
+    7,
     8,
-    9,
     10,
-    11,
-    12,
-    14,
-    16,
+    13,
+    17,
     18,
-    19,
+    21,
     22,
     23,
-    24
+    24,
+    25
   ],
   "premios": {
-    "telekino": [],
+    "telekino": [
+      {
+        "categoria": "14 ACIERTOS",
+        "ganadores": "31",
+        "premio": "$ 128.539"
+      },
+      {
+        "categoria": "30",
+        "ganadores": "01",
+        "premio": "2026"
+      },
+      {
+        "categoria": "18",
+        "ganadores": "01",
+        "premio": "2026"
+      }
+    ],
     "rekino": []
   },
   "tipo": "historico"
