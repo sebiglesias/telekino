@@ -430,7 +430,7 @@ footer {
 }
 
 .footer-links a:visited {
-    color: #d0d7de;
+    color: #c6cdd5;
 }
 
 .footer-links a:hover {
@@ -456,7 +456,7 @@ footer p {
 }
 
 .footer-disclaimer a:visited {
-    color: #96a7f8;
+    color: #8b9ff5;
 }
 
 .footer-disclaimer a:hover {
@@ -818,7 +818,6 @@ footer p {
 
     .footer-section p {
         color: #c9d1d9;
-        opacity: 1;
     }
 
     .footer-links a {
@@ -831,12 +830,10 @@ footer p {
 
     footer p {
         color: #c9d1d9;
-        opacity: 1;
     }
 
     .footer-disclaimer {
         color: #9198a1;
-        opacity: 1;
     }
 
     .footer-disclaimer a {
