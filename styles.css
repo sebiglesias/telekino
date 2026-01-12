@@ -212,7 +212,7 @@ section {
 }
 
 .draw-type {
-    background: #667eea;
+    background: #5568d3;
     color: white;
     padding: 0.5rem 1.5rem;
     border-radius: 20px;
@@ -403,14 +403,14 @@ footer {
 }
 
 .footer-section h3 {
-    color: #667eea;
+    color: #8b9ff5;
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
 
 .footer-section p {
     line-height: 1.8;
-    opacity: 0.9;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .footer-links {
@@ -423,36 +423,44 @@ footer {
 }
 
 .footer-links a {
-    color: #bdc3c7;
+    color: #d0d7de;
     text-decoration: none;
     transition: color 0.3s ease;
     display: inline-block;
 }
 
+.footer-links a:visited {
+    color: #d0d7de;
+}
+
 .footer-links a:hover {
-    color: #667eea;
+    color: #8b9ff5;
     transform: translateX(3px);
 }
 
 footer p {
-    opacity: 0.8;
     font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-disclaimer {
     margin-top: 1rem;
     font-size: 0.9rem;
-    opacity: 0.7;
     line-height: 1.6;
+    color: #adb5bd;
 }
 
 .footer-disclaimer a {
-    color: #667eea;
+    color: #96a7f8;
     text-decoration: underline;
 }
 
+.footer-disclaimer a:visited {
+    color: #96a7f8;
+}
+
 .footer-disclaimer a:hover {
-    color: #8b9ff5;
+    color: #a5b4f7;
 }
 
 /* Estados de carga y error */
@@ -637,39 +645,219 @@ footer p {
     }
 }
 
-/* Modo oscuro opcional */
+/* Modo oscuro mejorado con mejor contraste */
 @media (prefers-color-scheme: dark) {
     body {
-        background: linear-gradient(135deg, #2c3e50, #34495e);
-        color: #ecf0f1;
+        background: linear-gradient(135deg, #0d1117, #161b22);
+        color: #e6edf3;
+    }
+
+    /* Header en modo oscuro */
+    header {
+        background: rgba(22, 27, 34, 0.95);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+        color: #e6edf3;
+    }
+
+    header p {
+        color: #9198a1;
+    }
+
+    /* Secciones principales */
+    section {
+        background: #0d1117;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        border: 1px solid #30363d;
     }
 
     .selector-section,
-    .draw-card,
-    .info-card {
-        background: #34495e;
-        color: #ecf0f1;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    .results-section,
+    .info-section,
+    .faq-section,
+    .how-to-play-section {
+        background: #0d1117;
+        color: #e6edf3;
+    }
+
+    .section-header h2 {
+        color: #e6edf3;
+    }
+
+    /* Selector de sorteos */
+    .selector-header h2,
+    .selector-header p {
+        color: #e6edf3;
+    }
+
+    .selector-group label {
+        color: #e6edf3;
+    }
+
+    .draw-selector {
+        background: #161b22;
+        color: #e6edf3;
+        border-color: #30363d;
+    }
+
+    .draw-selector:hover,
+    .draw-selector:focus {
+        border-color: #667eea;
+        background: #1c2128;
     }
 
     .draw-date-large {
-        background: #2c3e50;
-        border-color: #4a6278;
-        color: #ecf0f1;
+        background: #161b22;
+        border-color: #30363d;
+        color: #e6edf3;
     }
 
-    .info-content {
-        color: #bdc3c7;
+    /* Tarjetas de sorteo */
+    .draw-card {
+        background: #161b22;
+        color: #e6edf3;
+        border-color: #30363d;
+    }
+
+    .draw-card:hover {
+        border-color: #667eea;
+        box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    }
+
+    .draw-header h3 {
+        color: #e6edf3;
+    }
+
+    /* Tarjetas de información */
+    .info-card {
+        background: #161b22;
+        color: #e6edf3;
+        border-color: #30363d;
+    }
+
+    .info-card::before {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+
+    .info-card:hover {
+        border-color: #667eea;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     }
 
     .info-card h3 {
-        color: #ecf0f1;
-        border-bottom-color: #4a6278;
+        color: #e6edf3;
+        border-bottom-color: #30363d;
+    }
+
+    .info-content {
+        color: #c9d1d9;
+    }
+
+    .info-content p {
+        color: #c9d1d9;
+    }
+
+    .info-content strong {
+        color: #e6edf3;
     }
 
     .info-feature {
-        background: rgba(102, 126, 234, 0.1);
+        background: rgba(102, 126, 234, 0.15);
         border-left-color: #667eea;
+    }
+
+    .info-feature h4 {
+        color: #e6edf3;
+    }
+
+    .info-feature p {
+        color: #c9d1d9;
+    }
+
+    /* FAQ items */
+    .faq-item {
+        background: #161b22;
+        border-left-color: #667eea;
+        border: 1px solid #30363d;
+    }
+
+    .faq-item:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .faq-item h3 {
+        color: #e6edf3;
+    }
+
+    .faq-item p {
+        color: #c9d1d9;
+    }
+
+    /* Estados de carga */
+    .loading {
+        color: #9198a1;
+    }
+
+    .no-data {
+        color: #9198a1;
+    }
+
+    /* Footer */
+    footer {
+        background: #0d1117;
+        color: #e6edf3;
+        border-top: 1px solid #30363d;
+    }
+
+    .footer-section h3 {
+        color: #667eea;
+    }
+
+    .footer-section p {
+        color: #c9d1d9;
+        opacity: 1;
+    }
+
+    .footer-links a {
+        color: #9198a1;
+    }
+
+    .footer-links a:hover {
+        color: #667eea;
+    }
+
+    footer p {
+        color: #c9d1d9;
+        opacity: 1;
+    }
+
+    .footer-disclaimer {
+        color: #9198a1;
+        opacity: 1;
+    }
+
+    .footer-disclaimer a {
+        color: #667eea;
+    }
+
+    .footer-disclaimer a:hover {
+        color: #8b9ff5;
+    }
+
+    /* Scrollbar en modo oscuro */
+    ::-webkit-scrollbar-track {
+        background: #0d1117;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(135deg, #5a6fd8, #6a4190);
     }
 }
 
