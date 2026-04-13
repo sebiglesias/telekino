@@ -1,58 +1,42 @@
 {
-  "numero_sorteo": "2422",
-  "fecha": "05/04/2026",
+  "numero_sorteo": "2423",
+  "fecha": "12/04/2026",
   "numeros_telekino": [
     1,
-    2,
     3,
+    4,
     5,
-    6,
     7,
-    9,
     10,
-    12,
-    15,
     16,
     17,
     18,
     19,
+    20,
+    21,
+    23,
+    24,
     25
   ],
   "numeros_rekino": [
     1,
+    2,
     3,
     4,
     7,
     8,
-    9,
-    10,
     11,
-    12,
     13,
-    15,
-    17,
+    18,
     19,
+    20,
     22,
-    24
+    23,
+    24,
+    25
   ],
   "premios": {
-    "telekino": [
-      {
-        "categoria": "14 ACIERTOS",
-        "ganadores": "19",
-        "premio": "$ 202.635"
-      },
-      {
-        "categoria": "24",
-        "ganadores": "04",
-        "premio": "2026"
-      },
-      {
-        "categoria": "12",
-        "ganadores": "04",
-        "premio": "2026"
-      }
-    ],
+    "telekino": [],
     "rekino": []
   },
   "tipo": "historico"
