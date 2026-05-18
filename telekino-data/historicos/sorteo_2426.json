@@ -1,42 +1,58 @@
 {
-  "numero_sorteo": "2427",
-  "fecha": "10/05/2026",
+  "numero_sorteo": "2428",
+  "fecha": "17/05/2026",
   "numeros_telekino": [
-    1,
     2,
     3,
-    4,
-    8,
+    6,
+    7,
     9,
     10,
-    11,
-    14,
-    15,
+    12,
+    16,
+    17,
     18,
-    19,
+    20,
     21,
     23,
-    24
+    24,
+    25
   ],
   "numeros_rekino": [
     2,
+    3,
+    4,
     5,
-    6,
     7,
-    8,
-    9,
+    10,
     11,
-    12,
-    17,
+    13,
+    14,
+    18,
     19,
     20,
     21,
     22,
-    23,
-    25
+    24
   ],
   "premios": {
-    "telekino": [],
+    "telekino": [
+      {
+        "categoria": "14 ACIERTOS",
+        "ganadores": "16",
+        "premio": "$ 266.861"
+      },
+      {
+        "categoria": "08",
+        "ganadores": "06",
+        "premio": "2026"
+      },
+      {
+        "categoria": "24",
+        "ganadores": "05",
+        "premio": "2026"
+      }
+    ],
     "rekino": []
   },
   "tipo": "historico"
