@@ -393,11 +393,63 @@ def save_data(data):
         with open(historical_dir / f"sorteo_{draw_num}.json", 'w', encoding='utf-8') as f:
             json.dump(draw_data, f, ensure_ascii=False, indent=2)
 
+    if data['current_draw']:
+        update_index_html(data['current_draw'])
+
     print(f"✅ Datos guardados en telekino-data/")
     print(f"   - resultados.json (datos completos)")
     print(f"   - backup_{timestamp}.json (backup)")
     print(f"   - historicos/ (datos individuales por sorteo)")
     return True
+
+
+def update_index_html(current_draw):
+    """Actualiza los números pre-renderizados en index.html para SEO"""
+    try:
+        index_path = Path("index.html")
+        if not index_path.exists():
+            return
+
+        content = index_path.read_text(encoding="utf-8")
+        draw_num = current_draw.get("numero_sorteo", "")
+        fecha = current_draw.get("fecha", "")
+        telekino_nums = current_draw.get("numeros_telekino", [])
+        rekino_nums = current_draw.get("numeros_rekino", [])
+
+        if not draw_num or not telekino_nums:
+            return
+
+        content = re.sub(
+            r'<span id="draw-number"[^>]*>.*?</span>',
+            f'<span id="draw-number" class="draw-badge" itemprop="name">Sorteo #{draw_num}</span>',
+            content
+        )
+        content = re.sub(
+            r'<span id="draw-date"[^>]*>.*?</span>',
+            f'<span id="draw-date" class="draw-date-large" itemprop="temporalCoverage">{fecha}</span>',
+            content
+        )
+
+        telekino_html = "\n".join([f'                    <div class="number">{str(n).zfill(2)}</div>' for n in telekino_nums])
+        content = re.sub(
+            r'(<div id="telekino-numbers"[^>]*>).*?(</div>\s*<meta itemprop="description")',
+            rf'\1\n{telekino_html}\n                \2',
+            content,
+            flags=re.DOTALL
+        )
+
+        rekino_html = "\n".join([f'                    <div class="number rekino">{str(n).zfill(2)}</div>' for n in rekino_nums])
+        content = re.sub(
+            r'(<div id="rekino-numbers"[^>]*>).*?(</div>\s*<meta itemprop="description")',
+            rf'\1\n{rekino_html}\n                \2',
+            content,
+            flags=re.DOTALL
+        )
+
+        index_path.write_text(content, encoding="utf-8")
+        print("✅ index.html actualizado con los números del último sorteo.")
+    except Exception as e:
+        print(f"⚠️ No se pudo actualizar index.html: {e}")
 
 
 def main():

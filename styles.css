@@ -974,3 +974,137 @@ main {
 .selector-section {
     contain: layout style paint;
 }
+
+
+/* Top Nav Brand Bar */
+.top-nav-bar {
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    padding: 10px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.top-nav-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: opacity 0.2s;
+}
+
+.top-nav-bar a:hover {
+    opacity: 0.8;
+}
+
+/* Cross-Sell Section */
+.cross-sell-section {
+    background: white;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #28a745;
+}
+
+.cross-sell-section h3 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cross-sell-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.cross-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #2c3e50;
+    transition: all 0.2s ease;
+}
+
+.cross-card:hover {
+    transform: translateY(-2px);
+    border-color: #667eea;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.cross-icon {
+    font-size: 1.8rem;
+}
+
+.cross-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cross-info strong {
+    font-size: 1rem;
+    color: #1a202c;
+}
+
+.cross-info span {
+    font-size: 0.8rem;
+    color: #718096;
+}
+
+/* FAQ Section */
+.faq-section {
+    background: white;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #f39c12;
+}
+
+.faq-section h2 {
+    color: #2c3e50;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.faq-card {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1.2rem 1.4rem;
+}
+
+.faq-card h3 {
+    color: #2c3e50;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq-card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
