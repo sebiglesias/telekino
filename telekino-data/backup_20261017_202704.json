@@ -1,0 +1,402 @@
+{
+  "current_draw": {
+    "numero_sorteo": "2449",
+    "fecha": "11/10/2026",
+    "numeros_telekino": [
+      1,
+      4,
+      6,
+      7,
+      8,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      23,
+      24,
+      25
+    ],
+    "numeros_rekino": [
+      2,
+      4,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      19,
+      21,
+      23,
+      24,
+      25
+    ],
+    "premios": {
+      "telekino": [],
+      "rekino": []
+    },
+    "tipo": "actual"
+  },
+  "available_draws": [
+    {
+      "valor": "2449",
+      "numero": "2449",
+      "fecha": "11-10-26",
+      "color": "CELESTE",
+      "texto_completo": "2449 /11-10-26/ CELESTE"
+    },
+    {
+      "valor": "2448",
+      "numero": "2448",
+      "fecha": "04-10-26",
+      "color": "ROSA",
+      "texto_completo": "2448 /04-10-26/ ROSA"
+    },
+    {
+      "valor": "2447",
+      "numero": "2447",
+      "fecha": "27-09-26",
+      "color": "AZUL",
+      "texto_completo": "2447 /27-09-26/ AZUL"
+    },
+    {
+      "valor": "2446",
+      "numero": "2446",
+      "fecha": "20-09-26",
+      "color": "VERDE",
+      "texto_completo": "2446 /20-09-26/ VERDE"
+    },
+    {
+      "valor": "2445",
+      "numero": "2445",
+      "fecha": "13-09-26",
+      "color": "VIOLETA",
+      "texto_completo": "2445 /13-09-26/ VIOLETA"
+    },
+    {
+      "valor": "2444",
+      "numero": "2444",
+      "fecha": "06-09-26",
+      "color": "ROJO",
+      "texto_completo": "2444 /06-09-26/ ROJO"
+    },
+    {
+      "valor": "2443",
+      "numero": "2443",
+      "fecha": "30-08-26",
+      "color": "CELESTE",
+      "texto_completo": "2443 /30-08-26/ CELESTE"
+    }
+  ],
+  "historical_draws": {
+    "2449": {
+      "numero_sorteo": "2449",
+      "fecha": "11/10/2026",
+      "numeros_telekino": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        23,
+        24,
+        25
+      ],
+      "premios": {
+        "telekino": [],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2448": {
+      "numero_sorteo": "2449",
+      "fecha": "11/10/2026",
+      "numeros_telekino": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        23,
+        24,
+        25
+      ],
+      "premios": {
+        "telekino": [],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2447": {
+      "numero_sorteo": "2449",
+      "fecha": "11/10/2026",
+      "numeros_telekino": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        23,
+        24,
+        25
+      ],
+      "premios": {
+        "telekino": [],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2446": {
+      "numero_sorteo": "2449",
+      "fecha": "11/10/2026",
+      "numeros_telekino": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        23,
+        24,
+        25
+      ],
+      "premios": {
+        "telekino": [],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2445": {
+      "numero_sorteo": "2449",
+      "fecha": "11/10/2026",
+      "numeros_telekino": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        23,
+        24,
+        25
+      ],
+      "premios": {
+        "telekino": [],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2444": {
+      "numero_sorteo": "2449",
+      "fecha": "11/10/2026",
+      "numeros_telekino": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        23,
+        24,
+        25
+      ],
+      "premios": {
+        "telekino": [],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2443": {
+      "numero_sorteo": "2449",
+      "fecha": "11/10/2026",
+      "numeros_telekino": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        23,
+        24,
+        25
+      ],
+      "premios": {
+        "telekino": [],
+        "rekino": []
+      },
+      "tipo": "historico"
+    }
+  },
+  "scraped_at": "2026-10-17T20:27:04.906549",
+  "source_url": "https://www.telekino.com.ar/Resultados",
+  "total_draws_scraped": 8
+}
