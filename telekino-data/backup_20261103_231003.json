@@ -1,0 +1,530 @@
+{
+  "current_draw": {
+    "numero_sorteo": "2452",
+    "fecha": "01/11/2026",
+    "numeros_telekino": [
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      14,
+      16,
+      18,
+      20,
+      21,
+      22,
+      24,
+      25
+    ],
+    "numeros_rekino": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      12,
+      13,
+      15,
+      16,
+      17,
+      21,
+      22,
+      23,
+      25
+    ],
+    "premios": {
+      "telekino": [
+        {
+          "categoria": "14 ACIERTOS",
+          "ganadores": "26",
+          "premio": "$ 195.972"
+        },
+        {
+          "categoria": "24",
+          "ganadores": "11",
+          "premio": "2026"
+        },
+        {
+          "categoria": "08",
+          "ganadores": "11",
+          "premio": "2026"
+        }
+      ],
+      "rekino": []
+    },
+    "tipo": "actual"
+  },
+  "available_draws": [
+    {
+      "valor": "2452",
+      "numero": "2452",
+      "fecha": "01-11-26",
+      "color": "VERDE",
+      "texto_completo": "2452 /01-11-26/ VERDE"
+    },
+    {
+      "valor": "2451",
+      "numero": "2451",
+      "fecha": "25-10-26",
+      "color": "VIOLETA",
+      "texto_completo": "2451 /25-10-26/ VIOLETA"
+    },
+    {
+      "valor": "2450",
+      "numero": "2450",
+      "fecha": "18-10-26",
+      "color": "ROJO",
+      "texto_completo": "2450 /18-10-26/ ROJO"
+    },
+    {
+      "valor": "2449",
+      "numero": "2449",
+      "fecha": "11-10-26",
+      "color": "CELESTE",
+      "texto_completo": "2449 /11-10-26/ CELESTE"
+    },
+    {
+      "valor": "2448",
+      "numero": "2448",
+      "fecha": "04-10-26",
+      "color": "ROSA",
+      "texto_completo": "2448 /04-10-26/ ROSA"
+    },
+    {
+      "valor": "2447",
+      "numero": "2447",
+      "fecha": "27-09-26",
+      "color": "AZUL",
+      "texto_completo": "2447 /27-09-26/ AZUL"
+    },
+    {
+      "valor": "2446",
+      "numero": "2446",
+      "fecha": "20-09-26",
+      "color": "VERDE",
+      "texto_completo": "2446 /20-09-26/ VERDE"
+    }
+  ],
+  "historical_draws": {
+    "2452": {
+      "numero_sorteo": "2452",
+      "fecha": "01/11/2026",
+      "numeros_telekino": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        25
+      ],
+      "premios": {
+        "telekino": [
+          {
+            "categoria": "14 ACIERTOS",
+            "ganadores": "26",
+            "premio": "$ 195.972"
+          },
+          {
+            "categoria": "24",
+            "ganadores": "11",
+            "premio": "2026"
+          },
+          {
+            "categoria": "08",
+            "ganadores": "11",
+            "premio": "2026"
+          }
+        ],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2451": {
+      "numero_sorteo": "2452",
+      "fecha": "01/11/2026",
+      "numeros_telekino": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        25
+      ],
+      "premios": {
+        "telekino": [
+          {
+            "categoria": "14 ACIERTOS",
+            "ganadores": "26",
+            "premio": "$ 195.972"
+          },
+          {
+            "categoria": "24",
+            "ganadores": "11",
+            "premio": "2026"
+          },
+          {
+            "categoria": "08",
+            "ganadores": "11",
+            "premio": "2026"
+          }
+        ],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2450": {
+      "numero_sorteo": "2452",
+      "fecha": "01/11/2026",
+      "numeros_telekino": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        25
+      ],
+      "premios": {
+        "telekino": [
+          {
+            "categoria": "14 ACIERTOS",
+            "ganadores": "26",
+            "premio": "$ 195.972"
+          },
+          {
+            "categoria": "24",
+            "ganadores": "11",
+            "premio": "2026"
+          },
+          {
+            "categoria": "08",
+            "ganadores": "11",
+            "premio": "2026"
+          }
+        ],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2449": {
+      "numero_sorteo": "2452",
+      "fecha": "01/11/2026",
+      "numeros_telekino": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        25
+      ],
+      "premios": {
+        "telekino": [
+          {
+            "categoria": "14 ACIERTOS",
+            "ganadores": "26",
+            "premio": "$ 195.972"
+          },
+          {
+            "categoria": "24",
+            "ganadores": "11",
+            "premio": "2026"
+          },
+          {
+            "categoria": "08",
+            "ganadores": "11",
+            "premio": "2026"
+          }
+        ],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2448": {
+      "numero_sorteo": "2452",
+      "fecha": "01/11/2026",
+      "numeros_telekino": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        25
+      ],
+      "premios": {
+        "telekino": [
+          {
+            "categoria": "14 ACIERTOS",
+            "ganadores": "26",
+            "premio": "$ 195.972"
+          },
+          {
+            "categoria": "24",
+            "ganadores": "11",
+            "premio": "2026"
+          },
+          {
+            "categoria": "08",
+            "ganadores": "11",
+            "premio": "2026"
+          }
+        ],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2447": {
+      "numero_sorteo": "2452",
+      "fecha": "01/11/2026",
+      "numeros_telekino": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        25
+      ],
+      "premios": {
+        "telekino": [
+          {
+            "categoria": "14 ACIERTOS",
+            "ganadores": "26",
+            "premio": "$ 195.972"
+          },
+          {
+            "categoria": "24",
+            "ganadores": "11",
+            "premio": "2026"
+          },
+          {
+            "categoria": "08",
+            "ganadores": "11",
+            "premio": "2026"
+          }
+        ],
+        "rekino": []
+      },
+      "tipo": "historico"
+    },
+    "2446": {
+      "numero_sorteo": "2452",
+      "fecha": "01/11/2026",
+      "numeros_telekino": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25
+      ],
+      "numeros_rekino": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15,
+        16,
+        17,
+        21,
+        22,
+        23,
+        25
+      ],
+      "premios": {
+        "telekino": [
+          {
+            "categoria": "14 ACIERTOS",
+            "ganadores": "26",
+            "premio": "$ 195.972"
+          },
+          {
+            "categoria": "24",
+            "ganadores": "11",
+            "premio": "2026"
+          },
+          {
+            "categoria": "08",
+            "ganadores": "11",
+            "premio": "2026"
+          }
+        ],
+        "rekino": []
+      },
+      "tipo": "historico"
+    }
+  },
+  "scraped_at": "2026-11-03T23:10:03.642889",
+  "source_url": "https://www.telekino.com.ar/Resultados",
+  "total_draws_scraped": 8
+}
